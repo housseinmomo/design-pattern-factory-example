@@ -14,11 +14,11 @@ public class PDF extends Document{
 
     @Override
     public String closeDocument() {
-        return null;
+        return "Fermeture";
     }
 
     @Override
     public String openDocument() {
-        return null;
+        return "Ouverture";
     }
 }

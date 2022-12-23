@@ -9,16 +9,16 @@ public class DocumentTexte extends Document{
 
     @Override
     public String saveDocument() {
-        return null;
+        return "Sauvegarde";
     }
 
     @Override
     public String closeDocument() {
-        return null;
+        return "Fermeture";
     }
 
     @Override
     public String openDocument() {
-        return null;
+        return "Ouverture";
     }
 }

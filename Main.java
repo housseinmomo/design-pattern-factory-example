@@ -16,12 +16,14 @@ public class Main {
         Document pdf = pdf_factory.createDocument(DocumentFactory.DocumentPDF);
         Document pdf2 = pdf_factory.createDocument(DocumentFactory.DocumentPDF);
         Document text = textFactory.createDocument(DocumentFactory.DocumentText);
+        Document text2 = textFactory.createDocument(DocumentFactory.DocumentText);
 
         // Verification des documents
 
         pdf.descDocument();
         pdf2.descDocument();
         text.descDocument();
+        text2.descDocument();
     }
 
 }
